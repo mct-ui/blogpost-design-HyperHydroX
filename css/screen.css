@@ -213,6 +213,10 @@ a:focus {
     margin: 0 auto;
 }
 
+.c-article__title {
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
 /* Utilities: max-width */
 
 .u-max-width-sm {
@@ -247,6 +251,18 @@ a:focus {
         padding: 24px 48px;
     }
 
+    .c-quote {
+        background-color: #F2FAF8;
+        padding: 24px;
+        margin: 48px 0;
+    }
+
+    .c-quote__content {
+        font-size: 23px;
+        color: #00B37D;
+        font-family: "Droid Serif";
+        font-style: italic;
+    }
 
 }
 
